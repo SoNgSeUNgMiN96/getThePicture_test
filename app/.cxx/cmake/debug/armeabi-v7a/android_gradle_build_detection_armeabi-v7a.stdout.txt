@@ -1,0 +1,15 @@
+ninja: Entering directory `C:\Users\seungmin\Desktop\coding\tensorflow-yolov4-tflite\android\app\.cxx\cmake\debug\armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/detection.dir/detection.cpp.o
+FAILED: CMakeFiles/detection.dir/detection.cpp.o 
+C:\ANDROID\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/ANDROID/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/ANDROID/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ddetection_EXPORTS -IC:/Users/seungmin/Desktop/coding/tensorflow-yolov4-tflite/android/opencv/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/detection.dir/detection.cpp.o -MF CMakeFiles\detection.dir\detection.cpp.o.d -o CMakeFiles/detection.dir/detection.cpp.o -c C:/Users/seungmin/Desktop/coding/tensorflow-yolov4-tflite/android/app/src/main/cpp/detection.cpp
+C:/Users/seungmin/Desktop/coding/tensorflow-yolov4-tflite/android/app/src/main/cpp/detection.cpp:34:32: error: use of undeclared identifier 'input_image'
+    Mat &orinImage1 = *(Mat *) input_image;
+                               ^
+C:/Users/seungmin/Desktop/coding/tensorflow-yolov4-tflite/android/app/src/main/cpp/detection.cpp:35:32: error: use of undeclared identifier 'output_image'
+    Mat &orinImage2 = *(Mat *) output_image;
+                               ^
+C:/Users/seungmin/Desktop/coding/tensorflow-yolov4-tflite/android/app/src/main/cpp/detection.cpp:90:5: error: void function 'Java_org_tensorflow_lite_examples_detection_Process_ConvertRGBtoGray' should not return a value [-Wreturn-type]
+    return env->NewStringUTF(s.c_str());
+    ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 errors generated.
+ninja: build stopped: subcommand failed.

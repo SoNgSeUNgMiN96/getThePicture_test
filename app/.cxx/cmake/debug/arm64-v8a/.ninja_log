@@ -1,0 +1,7 @@
+# ninja log v5
+0	128	673950699	CMakeFiles/detection.dir/detection.cpp.o	9cca6d3c1609c23b
+128	237	673950700	C:/Users/seungmin/Desktop/coding/tensorflow-yolov4-tflite/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libdetection.so	8ff841f1c7b8c1d2
+2	256	673957105	build.ninja	d58ae6241beeceed
+0	10	0	clean	38c4afc437ddb17b
+1	292	673957168	build.ninja	d58ae6241beeceed
+0	9	0	clean	38c4afc437ddb17b
