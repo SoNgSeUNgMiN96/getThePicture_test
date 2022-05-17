@@ -1,5 +1,3 @@
 # ninja log v5
-2	272	673957105	build.ninja	47be38ade1bc3db2
-0	8	0	clean	38c4afc437ddb17b
-1	251	673957169	build.ninja	47be38ade1bc3db2
-0	8	0	clean	38c4afc437ddb17b
+1	1697	674463532	CMakeFiles/native-lib.dir/native-lib.cpp.o	679b380ab521e67
+1701	1916	674463532	C:/Users/seungmin/Desktop/coding/tensorflow-yolov4-tflite/android/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	c6fd312f38dfc4ba

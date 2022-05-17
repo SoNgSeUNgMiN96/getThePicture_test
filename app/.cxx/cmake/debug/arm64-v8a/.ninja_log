@@ -5,3 +5,8 @@
 0	10	0	clean	38c4afc437ddb17b
 1	292	673957168	build.ninja	d58ae6241beeceed
 0	9	0	clean	38c4afc437ddb17b
+1	304	674463607	build.ninja	d58ae6241beeceed
+1	1970	674463609	CMakeFiles/native-lib.dir/native-lib.cpp.o	95eabb6a90b37f08
+1974	2394	674463609	C:/Users/seungmin/Desktop/coding/tensorflow-yolov4-tflite/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	8a850b4e872a6689
+4	1934	674466016	CMakeFiles/native-lib.dir/native-lib.cpp.o	95eabb6a90b37f08
+1935	2294	674466016	C:/Users/seungmin/Desktop/coding/tensorflow-yolov4-tflite/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	8a850b4e872a6689

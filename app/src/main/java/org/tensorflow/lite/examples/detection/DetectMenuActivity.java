@@ -35,6 +35,6 @@ public class DetectMenuActivity extends AppCompatActivity {
             }
         });
 
-        detectbtn.setOnClickListener(v -> startActivity(new Intent(DetectMenuActivity.this, DetectorActivity.class)));
+        detectbtn.setOnClickListener(v -> startActivity(new Intent(DetectMenuActivity.this, DetectModeActivity.class)));
     }
 }
